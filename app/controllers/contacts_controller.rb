@@ -32,6 +32,6 @@ class ContactsController < ApplicationController
         phone_number: contact.phone_number
       }
     end
-    render json: {contacts: all_contacts_array}
+    render json: all_contacts_array
   end
 end
